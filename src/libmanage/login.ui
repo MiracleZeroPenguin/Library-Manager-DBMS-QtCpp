@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QDialog" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>425</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label1_login">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>60</y>
+     <width>141</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>管理员登录</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="edit_username">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>160</y>
+     <width>160</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="edit_password">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>220</y>
+     <width>160</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label2_login">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>170</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>用户名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label3_login">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>230</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>密码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn1_login">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>320</y>
+     <width>130</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_logininfo">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>280</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

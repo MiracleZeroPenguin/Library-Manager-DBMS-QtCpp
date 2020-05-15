@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Showrecord</class>
+ <widget class="QDialog" name="Showrecord">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>540</width>
+    <height>398</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>40</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>查询已借图书</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>100</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>卡号</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_cno">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>100</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_search">
+   <property name="geometry">
+    <rect>
+     <x>399</x>
+     <y>100</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table_borrow">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>140</y>
+     <width>391</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>借书时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>归还时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>书号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>类别</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>书名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>出版社</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>年份</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>作者</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>价格</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>总藏书量</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>库存</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_info">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>300</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check_ifreturn">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>110</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>仅显示未还</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

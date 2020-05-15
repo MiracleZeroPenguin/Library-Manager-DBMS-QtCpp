@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>150</y>
+      <width>351</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>汉仪秦川飞影W</family>
+      <pointsize>45</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>图书管理系统</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_login">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>30</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>登入</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>30</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>登出</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>80</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>用户名：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label4_username">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>95</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>游客</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="user_manage">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>330</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>管理员增减</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新增管理员</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>删除管理员</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>查看全部管理员</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="book_insert">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>330</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>图书入库</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>单本图书入库</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>批量入库</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="book_search">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>330</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>图书查询</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="book_borrow">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>400</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>借书</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>显示已借书籍</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>借书操作</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="book_return">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>400</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>还书</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>显示已借书籍</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>还书操作</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="card_manage">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>400</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>借书证管理</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新增借书证</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>修改借书证</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>删除借书证</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>查询借书证</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>510</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Created by Miracle_Zero 2020/4/11</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

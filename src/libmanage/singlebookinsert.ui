@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Singlebookinsert</class>
+ <widget class="QDialog" name="Singlebookinsert">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>626</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>20</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>单本图书入库</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>110</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>书号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>110</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>类别</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>出版社</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>110</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>书名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>160</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>作者</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>210</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>价格</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>210</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>总藏书量</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>160</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>年份</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_bno">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>109</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_title">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>110</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_year">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>160</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_price">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>210</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_category">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>109</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_total">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>210</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_author">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>160</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_press">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>160</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_insert">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>270</y>
+     <width>130</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>入库</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_insertinfo">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>330</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_stock_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>210</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>210</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>库存</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table_bookinfo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>311</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>bno</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>category</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>title</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>press</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>year</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>author</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>price</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>total</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>stock</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="table_new">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>380</y>
+     <width>311</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>bno</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>category</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>title</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>press</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>year</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>author</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>price</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>total</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>stock</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Searchcard</class>
+ <widget class="QDialog" name="Searchcard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>426</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>30</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>借书卡查询</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check_cno">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>64</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>卡号</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check_name">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>100</y>
+     <width>64</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>姓名</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check_department">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>130</y>
+     <width>64</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>部门</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check_type">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>130</y>
+     <width>64</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>类型</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_cno">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>100</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_department">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>130</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_name">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>100</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="box_type">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>130</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>教师</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="btn_search">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>431</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪劲楷简</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table_card">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>210</y>
+     <width>431</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>卡号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>部门</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>类型</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_exist">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>290</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
